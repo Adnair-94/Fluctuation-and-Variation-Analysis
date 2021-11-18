@@ -6,7 +6,7 @@ library(tidyverse)
 library(ggpubr)
 library(ggsci)
 ################
-ad_theme=theme(text=element_text(family="Arial",size=10),
+journal_theme=theme(text=element_text(family="Arial",size=10),
 rect=element_blank(),
 panel.grid=element_blank(),
 axis.line=element_line(color="black",size=0.5),axis.ticks.length=unit(-0.15, "cm"),
