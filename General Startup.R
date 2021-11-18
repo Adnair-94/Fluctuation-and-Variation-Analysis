@@ -5,8 +5,6 @@ library(isofor)
 library(tidyverse)
 library(ggpubr)
 library(ggsci)
-
-setwd("C:\\Users\\adnai\\OneDrive\\Experiment Result Backup\\R Analysis Script")
 ################
 ad_theme=theme(text=element_text(family="Arial",size=10),
 rect=element_blank(),
@@ -26,9 +24,6 @@ return(x)
 }
 ############
 
-volume.path=c("C:\\Users\\adnai\\OneDrive\\Experiment Result Backup\\Graph Set\\Volume")
-density.path=c("C:\\Users\\adnai\\OneDrive\\Experiment Result Backup\\Graph Set\\Density")
-potential.path=c("C:\\Users\\adnai\\OneDrive\\Experiment Result Backup\\Graph Set\\Potential")
 
 
 
