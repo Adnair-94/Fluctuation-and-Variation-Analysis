@@ -24,7 +24,7 @@ x$process_score=iso.score #adds a column called process_score (using the generat
 x$category=ifelse(x$process_score>=0.60,"Outlier","Normal") # adds a column called category to the data frame which labels the data as outlier or normal based on isolation score
 return(x)
 }
-############
+#
 
 
 
